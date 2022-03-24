@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html {
+    font-family: 'Lato', sans-serif;
+}
+
 /* -----------------------------------header-------------------------------------------- */
 
 
@@ -15,7 +19,34 @@
 
 
 /* -----------------------------------slide-show----------------------------------------- */
+.slide-show {
+    height: auto;
+    width: 100%;
+    background-color: #ef8172;
+}
 
+.heading {
+    font-weight: 700;
+    font-size: 4.25vmin;
+    line-height: 2.5ch;
+}
+
+.img-size {
+    height: 8%;
+    width: 8%;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 2vmin;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.brand-img-size {
+    height: 95%;
+    width: 95%;
+}
 
 
 

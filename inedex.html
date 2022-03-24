@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
     <!-- css link -->
     <link rel="stylesheet" href="styles.css">
     <!-- bootstrap css link -->
@@ -28,8 +34,56 @@
     <section class="about">
         <h1>I'm about remove me and write about tin dog.</h1>
     </section>
-    <section class="slide-show">
-        I'm slide show.
+    <section class="slide-show p-xl-5">
+        <div class="container">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner py-3">
+                    <div class="carousel-item active text-center ">
+                        <h2 class="w-75 m-auto heading">"I no longer have to sniff other dogs for love. I've
+                            found the hottest Corgi on TinDog.
+                            Woof!"</h2>
+                        <div class="img-with-name mt-4">
+                            <img src="images/dog-img.jpg" class="rounded-circle mr-2 img-size" alt="dog-image">
+                            <span class="text-light italic">Pebbles, New York</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <h2 class="w-75 m-auto heading">"My dog used to be so lonely, but with TinDog's help, they've
+                            found the love of their life. I think."</h2>
+                        <div class="img-with-name mt-4">
+                            <img src="images/lady-img.jpg" class="rounded-circle mr-2 img-size" alt="dog-image">
+                            <span class="text-light italic">Beverly, Illinois</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="fa-solid fa-angle-left icon-weight" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="fa-solid fa-angle-right" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center justify-content-evenly w-75 m-auto py-3">
+                <div class="col">
+                    <img src="images/TechCrunch.png" class="brand-img-size" alt="TechCrunch">
+                </div>
+                <div class="col">
+                    <img src="images/tnw.png" class="brand-img-size" alt="tnw">
+                </div>
+                <div class="col">
+                    <img src="images/bizinsider.png" class="brand-img-size" alt="bizinsider">
+                </div>
+                <div class="col">
+                    <img src="images/mashable.png" class="brand-img-size" alt="mashable">
+                </div>
+            </div>
+        </div>
     </section>
     <section class="price">
         Hey, I'm price;
